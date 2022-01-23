@@ -16,3 +16,16 @@ def showLandingPage():
 	option = int(input("Enter number to select option >> "))
 
 showLandingPage()
+
+# def showAddOrderPanel():
+# def addOrder():
+
+# def showEditOrderPanel():
+# def editOrder():
+
+# def showOrdersListPanel():
+
+# def showAddClientPanel():
+# def addClient():
+
+
