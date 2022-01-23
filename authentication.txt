@@ -1,0 +1,4 @@
+isLoggedIn True
+name Martin Coalski
+email martincoalski@gmail.com
+password maguli0n4
