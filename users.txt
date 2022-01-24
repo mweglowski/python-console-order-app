@@ -1,3 +1,21 @@
+user[4]
+--firstName dawid
+--lastName miedzianowski
+--email dm@gmail.com
+--password dawid 
+----------------------------------------
+user[3]
+--firstName martin
+--lastName damianowicz
+--email mdm@gm.lj
+--password siemasiema 
+----------------------------------------
+user[2]
+--firstName damian
+--lastName naruszewicz
+--email damios@gmail.com
+--password dami99 
+----------------------------------------
 user[1]
 --firstName f
 --lastName f

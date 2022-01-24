@@ -1,4 +1,4 @@
-isLoggedIn False
+isLoggedIn True
 --firstName Martin
 --lastName Coalski
 --email martincoalski@gmail.com
