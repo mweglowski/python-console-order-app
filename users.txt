@@ -1,3 +1,9 @@
+user[1]
+--firstName f
+--lastName f
+--email mar@masdf.com
+--password asdfasdfsad 
+----------------------------------------
 user[0]
 --firstName Martin
 --lastName Coalski

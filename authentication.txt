@@ -1,4 +1,5 @@
 isLoggedIn False
-name Martin Coalski
-email martincoalski@gmail.com
-password maguli0n4
+--firstName Martin
+--lastName Coalski
+--email martincoalski@gmail.com
+--password maguli0n4
