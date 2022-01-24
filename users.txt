@@ -1,0 +1,5 @@
+user[0]
+--firstName Martin
+--lastName Coalski
+--email martincoalski@gmail.com
+--password maguli0n4

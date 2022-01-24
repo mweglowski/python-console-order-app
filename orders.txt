@@ -1,5 +1,5 @@
 order[0]
---client "Martin Coalski"
+--user "Martin Coalski"
 --product "Onion Syrup"
 --quantity "2"
 --dateOfPlacingOrder "01-02-2022"
