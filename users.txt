@@ -2,5 +2,5 @@ user[0]
 --firstName martin
 --lastName coalski
 --email mc@gmail.com
---password magulon 
+--password martinc
 ----------------------------------------
