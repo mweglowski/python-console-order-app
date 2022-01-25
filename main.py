@@ -79,7 +79,7 @@ def showLandingPage():
 		print("0. Exit")
 
 
-		option = input("Enter specific character to select option >> ")
+		option = input("Your choice >> ")
 
 		if option == "1":
 			showProducts()
@@ -140,7 +140,7 @@ def showProducts():
 		print("0. Exit")
 
 		for i in range(len(products)):
-			print(f'|{i + 1}\n| {products[i]["name"]} -> {products[i]["price"]}')
+			print(f'|<>| {products[i]["name"]} -> {products[i]["price"]}$')
 
 		option = input("Enter number to select option >> ")
 		if option == "+":
@@ -164,7 +164,7 @@ def showAddProductPanel():
 
 	while True:
 		for i in range(len(products)):
-			print(f'|{i + 1}\n| {products[i]["name"]} -> {products[i]["price"]}')
+			print(f'|{i + 1}| {products[i]["name"]} -> {products[i]["price"]}')
 
 		option = input("Your choice >> ")
 		if option == "`":
@@ -260,7 +260,7 @@ def showCart():
 			print("<>---ProductsInCart---<>")
 			for i in range(cartFileLinesLength):
 				print(f'<> {cartFileLines[i].rstrip()}')
-			print(f"<>---TotalAmount >> {checkTotalAmountOfProductsInCart()}")
+			print(f"<>---TotalAmount >> {checkTotalAmountOfProductsInCart()}$")
 
 		option = input("Your choice >> ")
 		if option == "0":
@@ -401,8 +401,11 @@ def showSignUpPanel():
 				break
 
 	# check how many users are signed
-	userCount = int(usersFileLines[0].rstrip()[5:len(usersFileLines[0]) - 2]) + 1
-	print(userCount)
+	userCount = int()
+	if len(usersFileLines) == 0:
+		userCount = 0
+	else:
+		userCount = int(usersFileLines[0].rstrip()[5:len(usersFileLines[0]) - 2]) + 1
 
 	usersFileLines.insert(0, "----------------------------------------\n")
 	usersFileLines.insert(0, f"--password {password} \n")
